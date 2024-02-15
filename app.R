@@ -22,7 +22,6 @@ joined_data_reactive <- reactive({
 source("ui.R")
 source("server.R")
 
-joined_data <- load_data()
 
 # Run the application
 shinyApp(ui = ui, server = server)
